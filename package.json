@@ -15,7 +15,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "transform": "node transform.js",
-    "go": "npm run transform && npm start"
+    "go": "npm run transform && npm start",
+    "deploy": "npm run transform && npm run build && cd build && surge --domain metalsanddevils.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
